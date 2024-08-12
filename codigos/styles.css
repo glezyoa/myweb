@@ -1,0 +1,65 @@
+body{margin: 0;background-color: rgb(200, 200, 200);}
+header{background-color: rgb(50, 50, 50);width: 100%;height: 100px;color: white;}
+
+nav{width: 100%;display: flex;}
+.header{width: 30%;height: 95px;padding: 2.5px 20px;}
+.header img{width: 90px;border-radius: 50%;}
+div ul{display: flex;}
+div ul li{margin: 10px 20px;}
+div ul li:hover{text-shadow: 5px 5px 30px white;text-shadow: 5px 5px 30px white;}
+:link{color: white;}
+:visited{color: white;}
+h1{font-size: 30px;}
+span{color: rgb(170, 141, 141);}
+.presentacion{margin: 0;padding: 2px;}
+#responsivo{display: none;}
+.main{width: 100%;}
+#blog section{display: flex; margin: 10px;border: 2px black solid;}
+#blog section article{width: 50%;margin: 10px;}
+#blog section article img{width: 100%;}
+#blog section article p{text-align: justify;}
+
+
+#flotante{position: absolute;z-index: 20;background-color: black;margin-left: 220px;margin-top: -2px;opacity: .5;color:white}
+#flotante{display:none}
+
+
+#tronco{display: flex;}
+  main{width: 70%;margin: 0%;}
+  #contenedor{display: flex;margin-top: 5px;}
+    .parte1{width: 50%;}
+    .me{width: 100%;object-fit:cover;}
+    #biografia{margin: 20px;text-align: justify;font-size: 18px;}
+    #biografia:first-letter{font-size: 25px ;color: red;}
+    
+  #tabla{width: 100%;margin: 10px 30px;}
+
+
+  aside{width: 30%;margin: 0%;background-color: rgb(150, 150, 150);padding: 0%;}
+    .paginas{display: flex;}
+    .paginas div{width: 33.3%;}
+    .paginas div img{width: 100%;border-radius: 20px;}
+    .paginas div p{text-align: justify;margin: 15px;font-size: 12px;}
+    video{width: 100%;}
+    aside p{margin: 12px;text-align: justify;}
+    div button:hover{box-shadow: 5px 5px 20px 0 black;}
+
+  #globo{position: absolute;margin:600px -180px;width: 170px;}
+  #globo video{border-radius: 50%;width: 100%;}
+
+
+   
+footer{background-color: rgb(70, 70, 70);}
+
+#galeria{width: 100%;}
+.galeria img{width: 250px;padding: 10px;}
+.galeria{display: flex;  flex-wrap: wrap;width: 100%;}
+
+@media (max-width:1020px) {div ul{display: block;} #globo{position: absolute;margin:350px -550px;width: 200px;}}
+  
+
+@media (max-width:900px) {#tronco{display: block;} aside{width: 100%;margin: 0%;background-color: rgb(150, 150, 150);padding: 0%;} main{width: 100%;margin: 0%;} .presentacion{margin: 0;padding: 1px;} h1{font-size: 25px;} #globo{position: absolute;margin:-600px 0px;width: 200px;}} 
+
+@media (max-width:800px) {#contenedor{display: block;margin-top: 5px;} .parte1{width: 100%;} #tabla{width: 100%;margin: 10px 0px;} .menu{display: none;} #responsivo{display: block;} header{background-color: rgb(50, 50, 50);width: 100%; height: 30px ;color: white;} #flotante{display:block} .main{margin-top: 100px;}#blog section{display: block;}    #blog section article{width: 97%;margin: 10px;}
+#blog section article img{width: 100%;}
+#blog section article p{text-align: justify;} #globo{position: absolute;margin:-1200px 0px;width: 100px;}}
